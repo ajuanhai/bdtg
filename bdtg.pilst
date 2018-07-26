@@ -1,1 +1,51 @@
-items assets kind software-package url http://dong.huangao1.com/mhc.ipa kind display-image needs-shine url http://stao8.com/Icon.png kind full-size-image needs-shine url http://stao8.com/Icon.png metadata bundle-identifier  cn.menghuancit.start bundle-version 2.5.5 kind software subtitle  cn.menghuancit.start title 直播
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>items</key>
+   <array>
+       <dict>
+           <key>assets</key>
+           <array>
+               <dict>
+                   <key>kind</key>
+                   <string>software-package</string>
+                   <key>url</key>
+                   <string>http://dong.huangao1.com/mhc.ipa</string>
+               </dict>
+               <dict>
+                     <key>kind</key>
+                     <string>full-size-image</string>
+                     <key>needs-shine</key>
+                     <true/>
+                     <key>url</key>
+                     <string>http://stao8.com/Icon.png</string>
+               </dict>
+               <dict>
+                   <key>kind</key>
+                   <string>display-image</string>
+                   <key>needs-shine</key>
+                   <true/>
+                   <key>url</key>
+                   <string>http://stao8.com/Icon.png</string>
+               </dict>
+           </array>
+           <key>metadata</key>
+           <dict>
+               <key>bundle-identifier</key>
+               <string>cn.menghuancit.start</string>
+               <key>bundle-version</key>
+               <string>2.5.5</string>
+               <key>kind</key>
+               <string>software</string>
+               <key>subtitle</key>
+               <string>cn.menghuancit.start</string>
+               <key>title</key>
+               <string>直播App</string>
+           </dict>
+       </dict>
+   </array>
+
+
+</dict>
+</plist>
